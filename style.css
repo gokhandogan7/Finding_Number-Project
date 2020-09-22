@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(./img/1894635.gif);
+    min-height: 100vh;
+    min-width: auto;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.values{
+    display: flex;
+    justify-content: center;
+    margin-top: 20em;
+}
