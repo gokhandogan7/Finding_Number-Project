@@ -66,7 +66,7 @@ body{
 .text {
     text-align: center;
     color: antiquewhite;
-    text-shadow:2px 2px cornflowerblue;
+    /* text-shadow:2px 2px cornflowerblue; */
     font-size: 27px;
     padding: 15px;
     font-weight: 900;
@@ -77,7 +77,63 @@ body{
 }
 .printscreen{
     text-align: center;
-    font-size: 25px;
-    color: coral;
+    font-size: 30px;
+    color: red;
+    /* border: 2px solid white; */
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.printscreen p{
+    transform: translateX(-6%);
+    transition: 200ms;
+}
+
+@media (max-width: 568px){
+    .values input{
+        width: 60%;
+        height: 30px; 
+        font-size: small;
+        padding: 12px;
+        box-sizing: border-box;
+        box-shadow:3px 3px 2px; 
+        border-radius: 6px;
+        background-color:rgba(230, 341, 200, 1) ;
+        font-family: 'Press Start 2P', cursive;
+        opacity: 0.9;}
+
+
+        #btn{
+            width: 15%;
+            border-radius: 10px;
+            height:30px;
+            font-size: small;
+            font-family: 'Megrim', cursive;
+            background-color:rgba(230, 341, 200, 1);
+            margin-left: 10px;
+            outline: none;
+            box-shadow:3px 3px 2px;
+            text-shadow: 2px 2px white;
+            font-weight: bolder;
+        }
+        .text {
+            text-align: center;
+            color: antiquewhite;
+            /* text-shadow:2px 2px cornflowerblue; */
+            font-size: 12px;
+            padding: 10px;
+            font-weight: 900;
+            font-family: 'Press Start 2P', cursive;    
+        }
+        .text p{
+            padding: 5px;
+        }
+        .printscreen{
+            text-align: center;
+            font-size: 20px;
+            color: coral;
+            /* text-shadow: 1px 1px white; */
+            padding-top:6px ;
+        }
 }
 

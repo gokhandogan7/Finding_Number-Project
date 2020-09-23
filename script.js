@@ -9,10 +9,12 @@ button.addEventListener("click", showResult)
 function showResult(){
     
     if (roundedNumber == (input.value)){
+        result.style.color = "green"
+        result_2.style.color = "green"
         result.innerHTML = "You must be Nostradamus!!!"
         result_2.innerHTML = `You found the number ${count}. attempt...`
         
-        setTimeout(refresh,6000)
+        setTimeout(refresh,5000)
          
         count++;
         count > 3? result.innerHTML ="" : result.innerHTML = "You must be Nostradamus!!!"
@@ -27,7 +29,7 @@ function showResult(){
         input.focus()
     }
 
-    else{result.innerHTML="Come on a little bit high"
+    else{result.innerHTML="Come on! A little bit high..."
         reset()
         count++;
         input.focus()
@@ -44,5 +46,4 @@ function reload(){
 
 }
 function refresh(){
-    window.location.reload(true);
-}
+    document.location.reload();}}
