@@ -50,6 +50,18 @@ body{
    
 }
 
+#btn{
+    width: 90px;
+    border-radius: 10px;
+    height:45px;
+    font-size: x-large;
+    font-family: 'Megrim', cursive;
+    background-color:rgba(230, 341, 200, 1);
+    margin-left: 15px;
+    outline: none;
+    box-shadow:3px 3px 2px;
+    text-shadow: 2px 2px white;
+    font-weight: bolder;
 
 
 
