@@ -74,5 +74,10 @@ body{
 }
 .text p{
     padding: 5px;
-
+}
+.printscreen{
+    text-align: center;
+    font-size: 25px;
+    color: coral;
+}
 
