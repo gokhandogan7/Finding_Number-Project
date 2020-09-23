@@ -50,6 +50,11 @@ body{
    
 }
 
+input::placeholder{
+    font-size: small;
+}
+
+
 #btn{
     width: 90px;
     border-radius: 10px;
@@ -88,6 +93,12 @@ body{
     transform: translateX(-6%);
     transition: 200ms;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 
 @media (max-width: 568px){
     .values input{
