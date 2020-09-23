@@ -63,6 +63,16 @@ body{
     text-shadow: 2px 2px white;
     font-weight: bolder;
 }
-
+.text {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow:2px 2px cornflowerblue;
+    font-size: 27px;
+    padding: 15px;
+    font-weight: 900;
+    font-family: 'Press Start 2P', cursive;    
+}
+.text p{
+    padding: 5px;
 
 
