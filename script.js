@@ -12,7 +12,7 @@ function showResult(){
         result.style.color = "green"
         result_2.style.color = "green"
         result.innerHTML = "You must be Nostradamus!!!"
-        result_2.innerHTML = `You found the number ${count}. attempt...`
+        result_2.innerHTML = `You found the number in ${count}. attempt...`
         
         setTimeout(refresh,5000)
          
