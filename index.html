@@ -16,7 +16,12 @@
             <p>(between 0 and 10)</p>
         </div>
         <div class="values">
-            <input type="number" id="input" maxlength="2" placeholder="I want to play a game!!!">
+            <input name="somename" id="input" placeholder="I want to play a game !!!"
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+    type = "number"
+    maxlength = "2"
+ />
+            <!-- <input type="number" id="input" maxlength="2" placeholder="I want to play a game!!!"> -->
             <button id="btn">Check</button>
         </div>
         <div class="printscreen">
