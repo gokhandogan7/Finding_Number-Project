@@ -17,7 +17,7 @@ function showResult(){
         setTimeout(refresh,5000)
          
         count++;
-        count > 4? result.innerHTML ="" : result.innerHTML = "You must be Nostradamus!!!"
+        count > 3? result.innerHTML ="" : result.innerHTML = "You must be Nostradamus!!!"
     
     }
 
