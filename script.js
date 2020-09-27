@@ -10,7 +10,7 @@ function showResult(){
     
     if (roundedNumber == (input.value)){
         result.style.color = "green"
-        result_2.style.color = "white"
+        result_2.style.color = "green"
         result.innerHTML = "You must be Nostradamus!!!"
         result_2.innerHTML = `You found the number in ${count}. attempt...`
         
