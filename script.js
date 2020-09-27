@@ -14,7 +14,7 @@ function showResult(){
         result.innerHTML = "You must be Nostradamus!!!"
         result_2.innerHTML = `You found the number in ${count}. attempt...`
         
-        setTimeout(refresh,6000)
+        setTimeout(refresh,5000)
          
         count++;
         count > 4? result.innerHTML ="" : result.innerHTML = "You must be Nostradamus!!!"
